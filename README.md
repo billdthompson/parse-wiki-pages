@@ -1,10 +1,10 @@
-## Parsing Page records Out of Wikimedia Data Dumps
+## A Python Tool to Extract Page Records from Wikimedia SQL Data Dumps
 
 **Author**: Bill Thompson (biltho@mpi.nl)
 
 
 #### Summary
-A Simple python script to extract a record of all pages in a given wikipedia from [Wikimedia](https://dumps.wikimedia.org) sql dumps. Writes out a csv with ("page_id", "page_namespace", "page_title", and "page_len") columns
+A Simple python script to extract a record of all pages in a given wikipedia from [Wikimedia](https://dumps.wikimedia.org) sql dumps. Writes out a csv with ("page_id", "page_namespace", "page_title", and "page_len") columns.
 
 Usage:
 
@@ -14,7 +14,7 @@ The latest dumps for the English wikipedia, for example, can be found [here](htt
 
 dumps.wikimedia.org/LANGUAGEwiki/latest/LANGUAGEwiki-latest-page.sql.gz
 
-where LANGUAGE is replaced by the language iso (e.g. en, ab, es, pt, fr, etc...)
+where LANGUAGE is replaced by the language iso (e.g. en, ab, es, pt, fr, etc...).
 
 
 
